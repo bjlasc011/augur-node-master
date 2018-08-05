@@ -14,8 +14,8 @@
       }
     ],
     "linebreak-style": [
-      "error",
-      "windows"
+      2,
+      "linux"
     ],
     "quotes": [
       1,
