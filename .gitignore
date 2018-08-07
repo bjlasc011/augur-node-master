@@ -6,3 +6,4 @@ definitions/
 augur*.db
 upload-block*
 tags
+*augur*.db*

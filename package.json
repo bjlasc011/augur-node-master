@@ -17,7 +17,7 @@
     "temp": " ",
     "version": "npm run rebuild",
     "go": "scripts/go.sh",
-    "start": "set ETHEREUM_HTTP=https://megageth.com/ && set ETHEREUM_WS=wss://megageth.com/ws && node ./build/runServer",
+    "start": "set ETHEREUM_HTTP=https://megageth.com/ && set ETHEREUM_WS=wss://megageth.com/ws && set AUGUR_DATABASE_DIR=./database-files&& node ./build/runServer",
     "start:export": "node ./build/runServer",
     "debug": "node --inspect-brk ./build/runServer",
     "test": "mocha test/unit",
